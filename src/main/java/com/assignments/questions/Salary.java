@@ -1,6 +1,5 @@
 package com.assignments.questions;
 
-
 import java.util.Scanner;
 
 public class Salary {
