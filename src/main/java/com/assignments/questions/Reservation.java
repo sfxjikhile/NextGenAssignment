@@ -1,5 +1,4 @@
 package com.assignments.questions;
-
 public class Reservation {
     int ticketID;
     Reservation(int ticketID) {
