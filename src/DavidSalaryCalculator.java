@@ -14,4 +14,3 @@ public class DavidSalaryCalculator {
         scanner.close();
     }
 }
-

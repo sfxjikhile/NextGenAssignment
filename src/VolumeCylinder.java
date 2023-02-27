@@ -9,7 +9,7 @@ public class VolumeCylinder {
         System.out.println("Height");
         double height = scanner.nextDouble();
 
-        double cylinderVolume = (22/7)*(radius)*(height);
-        System.out.println("Volume is 4"+cylinderVolume);
+        double cylinderVolume = (3.142)*(radius*radius)*(height);
+        System.out.println("Volume is "+cylinderVolume);
     }
 }
