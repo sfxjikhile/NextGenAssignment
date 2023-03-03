@@ -1,4 +1,4 @@
-package com.assignments.questions;
+package main.java.com.assign.questions;
 
 public class NumericPattern {
     public static void main(String[] args){
