@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79b72c2a-b7bc-4032-9516-162250f63076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NextGenAssignmentS2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/DecrementingLoop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/DisplayMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/MultipleOf2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/NumericPattern.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/PrimeNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/assignments/questions/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/Assignment02" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/Assignment02" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/DecrementingLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/DecrementingLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/DisplayMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/DisplayMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/MultipleOf2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/MultipleOf2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/NumericPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/NumericPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/PrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/PrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/assignments/questions/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/assign/questions/Table.java" afterDir="false" />
+    <list default="true" id="79b72c2a-b7bc-4032-9516-162250f63076" name="Changes" comment="first committ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +13,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MVbvP7yKZtBc7r8xXWTDGL2p2R" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,12 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/SPEED/IdeaProjects/secondAssignment"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="NextGenAssignments2" />
@@ -75,6 +61,18 @@
       <option name="presentableId" value="Default" />
       <updated>1677855931958</updated>
     </task>
+    <task id="LOCAL-00001" summary="first committ">
+      <created>1677857586933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677857586933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first committ" />
+    <option name="LAST_COMMIT_MESSAGE" value="first committ" />
   </component>
 </project>

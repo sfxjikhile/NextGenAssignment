@@ -29,6 +29,7 @@ public class DisplayMenu {
 
         Scanner sc = new Scanner(System.in);
 
+
         System.out.println("Input Menu Option:");
 
         // User input
