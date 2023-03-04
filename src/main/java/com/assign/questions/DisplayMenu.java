@@ -9,6 +9,7 @@ public class DisplayMenu {
       response = "Enter Data";
       return response;
     }
+
     String displayData() {
         response = "Display Data";
         return response;

@@ -3,7 +3,6 @@ package main.java.com.assign.questions;
 import java.util.Scanner;
 
 public class PrimeNumbers {
-
     String inputPrime(int input_Number) {
 
         // String displayPrimeNumbers = "";
