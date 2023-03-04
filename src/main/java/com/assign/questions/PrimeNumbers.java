@@ -17,11 +17,13 @@ public class PrimeNumbers {
                 }
             }
             if(count == 0) {
-//                displayPrimeNumbers += i + " ";
+                // DisplayPrimeNumbers += i + " ";
                 displayPrimeNumbers.append(i).append(" ");
             }
         }
+
         System.out.println("Prime numbers from 1 to " + input_Number + " are: "  );
+
         return(displayPrimeNumbers.toString());
 
     }
