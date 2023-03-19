@@ -1,0 +1,24 @@
+Assignment (Week 4)
+
+In the EmployeeBook application, David wants to display the following menu when the application starts:
+ Enter Data
+Display Data
+Exit
+Thereafter, he wants to enter a choice, such as 1, 2, or 3. Based on the input provided by the user, he wants the respective methods, enterData(), displayData(), or exitMenu(), to be invoked according to the user’s input, 1, 2, or 3, respectively. Help David to achieve the preceding requirement.
+
+Write a program to accept a number from a user and display all the prime numbers between one and the number entered by the user.
+
+
+Write a program to display the following numeric pattern:
+1
+12
+123
+1234
+12345
+
+Write a program to print the table of five.
+
+Show the for statement for a loop that counts from 1000 to 0 by –2. 
+
+Write a program that uses a for loop to generate and display the progression 1, 2, 4, 8, 16, 32, and so on
+
