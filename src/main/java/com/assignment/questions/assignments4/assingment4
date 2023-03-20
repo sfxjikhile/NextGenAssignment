@@ -1,0 +1,27 @@
+ASSIGNMENT
+
+David needs to write a program to calculate the net payable salary. The program will take the basic salary as input from the user and calculate the total salary along with the following components:
+HRA, which is 50% of the basic salary
+Special allowance, which is 75% of the basic salary
+PF deduction, which is 12% of the basic salary.
+After calculating the preceding salary components, the net payable salary should be displayed. Help David to perform the preceding requirement.
+
+Note: Net Payable salary = (basic+HRA+special allowance) - PF
+
+Create a Reservation class with a member variable, TicketID, and a method, ShowTicket(). A constructor should initialize the TicketID variable, and the ShowTicket() method should display its value. In addition, create an object of the Reservation class to call these methods.
+
+Note: Read up on Constructors in Java
+
+Consider the following expression:
+4 * 4 + 8 / 4
+When Sam executes the preceding expression by using the Java code, he gets an output value of 18. However, he wants that the output should be 12. Help Sam to achieve the preceding task.
+
+Mary needs to write a program to calculate the volume of a cylinder. The program will take the radius and height of the cylinder as input from the user. To calculate the volume, Mary can use the following formula:
+
+Volume = πr2h
+
+Here, r is the radius of the cylinder, h is the height of the cylinder, and the value of pie(π) is  22/7. Help Mary to perform the preceding task
+
+
+
+
