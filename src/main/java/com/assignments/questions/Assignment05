@@ -1,0 +1,20 @@
+Assignment
+
+In the EmployeeBook application, David wants to implement the following functionalities:
+When the user selects the option to enter data, the employee details, such as employee ID, employee name, department, designation, date of joining, date of birth, marital status, and date of marriage should be captured. However, the date of marriage can be captured only if the employee is married.
+When the user selects the option to view data, the employee id of the employee for which the data needs to view should be entered and validated. If the employee id is correct, the details should be displayed else an error message should be displayed.
+When the user selects the option to exit, the application must terminate.
+Help David to achieve the preceding functionalities.
+
+Write to java code to print out the 12 by 12 multiplication table using arrays. It should be well descriptive.
+
+Write a program that uses an array to find the average of 10 double values. Use any 10 values you like
+
+
+
+
+
+
+
+
+
