@@ -14,9 +14,9 @@ public class TwelveTimesTable{
         // print out the table
         for (int i = 0; i < 12; i++) {
             for (int j = 0; j < 12; j++) {
-                System.out.printf("%10d", table[i][j]); // format output with 4 spaces inbetween
+                System.out.printf("%10d", table[i][j]); // format output with spaces inbetween
             }
-            System.out.println(); // move to next line
+            System.out.println(); // print and move to next line
         }
     }
 }
