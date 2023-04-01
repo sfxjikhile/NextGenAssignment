@@ -9,10 +9,10 @@ public class FixedDepositAccount {
     Scanner sc = new Scanner(System.in);
     private static final double interestRate = 0.15;
 
-    protected void calculateInterest(){
+    protected void calculateInterest(double interestRate, String accountType){
         try{
             System.out.println("Welcome to Emmabest Bank");
-            System.out.printf("We offer a %.2f percent interest rate per annum on fixed deposit accounts\n", interestRate*100);
+            System.out.printf("We offer a %.2f percent interest rate per annum on %s accounts\n", interestRate*100, accountType);
             System.out.println("Enter your details below to calculate accruable interest");
 
             System.out.print("Enter your current balance: ");
@@ -30,7 +30,7 @@ public class FixedDepositAccount {
 
     public static void main(String[] args){
         FixedDepositAccount fd = new FixedDepositAccount();
-        fd.calculateInterest();
+        fd.calculateInterest(interestRate, "Fixed Deposit Account");
     }
 
     protected double validateDouble(String inputString){

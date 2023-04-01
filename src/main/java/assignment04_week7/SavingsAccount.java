@@ -1,11 +1,11 @@
 package assignment04_week7;
 
-import java.util.IllegalFormatConversionException;
+//import java.util.IllegalFormatConversionException;
 
 public class SavingsAccount extends FixedDepositAccount{
     private static final double interestRate = 0.10;
 
-    @Override
+    /*@Override
     protected void calculateInterest(){
         try{
             System.out.println("Welcome to Emmabest Bank");
@@ -23,10 +23,10 @@ public class SavingsAccount extends FixedDepositAccount{
         }catch(IllegalFormatConversionException e){
             e.printStackTrace();
         }
-    }
+    }*/
 
     public static void main(String[] args){
         SavingsAccount savingsAccount = new SavingsAccount();
-        savingsAccount.calculateInterest();
+        savingsAccount.calculateInterest(interestRate, "Savings Account");
     }
 }
