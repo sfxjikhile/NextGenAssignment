@@ -1,0 +1,29 @@
+Assignment (Week 8)
+
+Note: Answer the questions below using an interface.
+
+Furniture and Fittings Company (FFC) manufactures chairs and bookshelves. The customers provide their specifications for the desired furniture
+item to the company. The furniture items in the company have similar characteristics, such as price, width, and height.
+However, for some furniture items, specific details need to be provided by the customers. Recently, the business of the company has
+increased significantly. To handle the increased customer’s orders, FFC has decided to computerize the order processing system.
+For this, you need to develop a Java program that accepts the furniture attributes from the customers, as per the specified furniture items,
+such as bookshelves and chairs. You need to develop the program to accept and display the various choices of customers.
+
+
+Create a library management system program that will be used to store the details of the software books and hardware books.
+For software books, the various pieces of information, such as the author name, title, price, stock, software version, software name,
+and number of pages, should be accepted.
+For hardware books, the various pieces of information, such as the author name, title, price, number of pages, stock, hardware category,
+and publisher, should be accepted. After accepting the details in either of the book categories, the entered details must be displayed.
+You need to ensure that code reusuability is implemented in the program.
+
+
+
+
+
+
+
+
+
+
+

@@ -15,12 +15,12 @@ public class InterestMenu {
         switch (choice) {
             case 1:
                 FixedAccount fixedAccount = new FixedAccount();
-                System.out.println(fixedAccount.calculateInterest());
+                System.out.println("The Compound interest is: "+ fixedAccount.calculateInterest());
                 break;
 
             case 2:
                 SavingsAccount savingsAccount = new SavingsAccount();
-                System.out.println("Compound Interest is: " + savingsAccount.calculateInterest());
+                System.out.println("Simple Interest is: " + savingsAccount.calculateInterest());
                 break;
 
             default:
