@@ -1,4 +1,4 @@
-package chuks.assignment.FixedAccount;
+package com.assignment.solutions.assignment7.FixedAccount;
 
 public class FixedAccount {
 

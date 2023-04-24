@@ -1,4 +1,4 @@
-package chuks.assignment.ManagementSystem;
+package com.assignment.solutions.assignment7.ManagementSystem;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

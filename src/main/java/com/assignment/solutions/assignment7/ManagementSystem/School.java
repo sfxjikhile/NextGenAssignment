@@ -1,4 +1,4 @@
-package chuks.assignment.ManagementSystem;
+package com.assignment.solutions.assignment7.ManagementSystem;
 
 public class School {
     private String firstName;
