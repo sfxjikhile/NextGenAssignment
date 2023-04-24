@@ -4,32 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="543b0b0c-a0b2-4720-8baf-32e037226bc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments3/assingment3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments4/assingment4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments5/Assingment5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment3/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment3/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment3/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment3/Salary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/DecrementingLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/DisplayMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/MultipleOf2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/NumericPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/PrimeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment4/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment5/CalcAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment5/EmployeeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment5/MultiplicationTable.java" afterDir="false" />
+    <list default="true" id="543b0b0c-a0b2-4720-8baf-32e037226bc5" name="Changes" comment="Week3/4/5 Solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments7/Assingment7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments8/Assingment7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/questions/assignments9/Assingment9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/FixedAccount/FixedAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/FixedAccount/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/FixedAccount/Savings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/ManagementSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/ManagementSystem/ManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/ManagementSystem/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment7/ManagementSystem/SystemDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/fittingCompany/Furniture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/fittingCompany/FurnitureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/fittingCompany/FurnitureInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/fittingCompany/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/managementSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/managementSystem/ManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/managementSystem/ManagerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment8/managementSystem/SystemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/Calcus/DivideTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/Employeebook/EmployeeBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/Employeebook/EmployeeInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/Employeebook/Employeeexception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/Employeebook/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/NewAxisTechnology/LesserThanGreaterThanException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/NewAxisTechnology/NewAxis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/assignment/solutions/assignment9/NewAxisTechnology/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +49,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,9 +76,79 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/SPEED/IdeaProjects/assignmentsSolution/src/main/java/com/assignment/solutions/assignment8"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\SPEED\IdeaProjects\assignmentsSolution\src\main\java\com\assignment\solutions\assignment8" />
+      <recent name="C:\Users\SPEED\IdeaProjects\assignmentsSolution\src\main\java\com\assignment\questions" />
+      <recent name="C:\Users\SPEED\IdeaProjects\assignmentsSolution\src\main\java\com\assignment\solutions\assignment9" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.assignment.solutions.assignment9.NewAxisTechnology.Main">
+    <configuration name="DivideTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.solutions.assignment9.Calcus.DivideTwoNumbers" />
+      <module name="assignmentsSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.solutions.assignment9.Calcus.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.solutions.assignment5.EmployeeBook" />
+      <module name="assignmentsSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.solutions.assignment5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.solutions.assignment9.Employeebook.Main" />
+      <module name="assignmentsSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.solutions.assignment9.Employeebook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.assignment.solutions.assignment9.NewAxisTechnology.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.assignment.solutions.assignment9.NewAxisTechnology.Main" />
+      <module name="assignmentsSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.assignment.solutions.assignment9.NewAxisTechnology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.assignment.solutions.assignment9.NewAxisTechnology.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DivideTwoNumbers" />
+        <item itemvalue="Application.EmployeeBook" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -79,5 +159,9 @@
       <updated>1679315476805</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Week3/4/5 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week3/4/5 Solutions" />
   </component>
 </project>
