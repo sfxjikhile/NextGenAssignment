@@ -144,7 +144,7 @@ public class EmployeeApp {
     }
 
     private String validateEmployeeID(String input){
-        Pattern employeeIDPattern = Pattern.compile("[^e][a-zA-Z0-9@#%&*$]+");
+        Pattern employeeIDPattern = Pattern.compile("[e][a-zA-Z0-9@#%&*$]+");
         Matcher employeeIDMatcher = employeeIDPattern.matcher(input);
         try{
             if(!employeeIDMatcher.matches()){
