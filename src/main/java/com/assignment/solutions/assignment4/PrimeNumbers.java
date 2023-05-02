@@ -3,36 +3,38 @@ package com.assignment.solutions.assignment4;
 import java.util.Scanner;
 
 public class PrimeNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    String inputPrime(int input_Number) {
 
-        // Get the number from the user
-        System.out.print("Enter a number: ");
-        int n = scanner.nextInt();
+        // String displayPrimeNumbers = "";
+        StringBuilder displayPrimeNumbers = new StringBuilder();
 
-        // Print all prime numbers between 1 and n
-        System.out.println("Prime numbers between 1 and " + n + ":");
-        for (int i = 2; i <= n; i++) {
-            if (isPrime(i)) {
-                System.out.print(i + " ");
+        for (int i = 1; i <= input_Number; i++){
+            int count = 0;
+            for (int j = 2; j <= i/2; j++) {
+                if(i % j == 0) {
+                    count ++;
+                }
+            }
+            if(count == 0) {
+                // DisplayPrimeNumbers += i + " ";
+                displayPrimeNumbers.append(i).append(" ");
             }
         }
 
-        // Close the scanner
-        scanner.close();
+        System.out.println("Prime numbers from 1 to " + input_Number + " are: "  );
+
+        return(displayPrimeNumbers.toString());
+
     }
+    public static void main(String[] args) {
+        PrimeNumbers primeNumbers = new PrimeNumbers();
 
-    // Check if a number is prime
-    public static boolean isPrime(int num) {
-        if (num < 2) {
-            return false;
-        }
-        for (int i = 2; i <= Math.sqrt(num); i++) {
-            if (num % i == 0) {
-                return false;
-            }
-        }
-        return true;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter Number");
+
+        int userInput = sc.nextInt();
+
+        System.out.println(primeNumbers.inputPrime(userInput));
     }
 }
-

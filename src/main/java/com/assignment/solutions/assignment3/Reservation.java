@@ -1,19 +1,19 @@
 package com.assignment.solutions.assignment3;
 
 public class Reservation {
-    private int ticketID;
 
-    public Reservation(int ticketID) {
+    int ticketID;
+    Reservation(int ticketID) {
         this.ticketID = ticketID;
     }
 
-    public void showTicket() {
-        System.out.println("Ticket ID: " + ticketID);
+    void showTicket(){
+        System.out.println(this.ticketID);
     }
 
-    public static void main(String[] args) {
-        Reservation reservation = new Reservation(1234);
+    public static void main(String[] args){
+        Reservation reservation = new Reservation(7888);
         reservation.showTicket();
+
     }
 }
-
