@@ -1,7 +1,9 @@
 package com.nextgen.books.enums;
 
 public enum ResponseCodeEnum {
-    SUCCESS(0, "Success");
+    SUCCESS(0, "Success"),
+    ERROR(-1, "Error"),
+    INVALID_INPUT(-2, "Invalid input was entered");
 
     int code;
     String description;
