@@ -1,0 +1,19 @@
+ Assignment (Week 12)- Regular Expressions and Generics
+
+Write a program that accepts a Web portal name from the user. In addition, the program should validate the format of the Web portal name. The Web portal name should have the following fields
+Protocol, such as https or http.
+Domain, such as xyz
+The top-level domain should be more than one character, such as .co.
+
+You need to develop an application that accepts a name and contact number as inputs from the user. In addition, you need to validate these inputs based on the following constraints:
+The name should contain only letters.
+The contact number should contain only numeric values in the (xxx-xxxx-xxxx) format.
+
+Flexi Inc. is a leading glass manufacturing organization in the US. The HR department of the organization found that its Employee Management system needs to be redeveloped. The HR department wants the system to maintain the information of both, the hourly paid employees and monthly paid employees, separately by using a single interface only. For this, it has assigned the task of developing an interactive system to Telltro, a software development organization. In the organization, Iman, the Senior Software Developer, has been assigned the responsibility to accomplish the development. For this, Iman has decided to create the following classes to develop the application.
+HourlySalary: Will contain the basic details of the employee and salary calculation functionality according to hours.
+MonthlySalary: Will contain the basic details of the employee and salary calculation functionality according to months.
+ProcessDetails: Will be a generic class that will accept an object of the HourlySalary or MonthlySalary class. In addition, it will process and print the details of both the classes.
+EmployeeManagement: Will provide the user interface that will allow a user to add and view the employee details. In addition, it will allow a user to enter the number of hours or months according to the type of employee.
+
+In the initial phase, Iman has decided to create the character user interface for the application. Help Iman to achieve the preceding requirements.
+

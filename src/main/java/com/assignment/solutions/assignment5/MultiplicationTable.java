@@ -2,15 +2,15 @@ package com.assignment.solutions.assignment5;
 
 public class MultiplicationTable {
     public static void main(String[] args) {
-        int[][] table = new int[12][12]; // Create a 2D array to hold the table
 
-        for (int i = 0; i < 12; i++) {
-            for (int j = 0; j < 12; j++) {
-                table[i][j] = (j + 1) * (i + 1);
-                System.out.print((j + 1) + " * " + (i + 1) + " = " + table[i][j] + "\t\t");
+        int[][] multiple = new int[12 + 1][12];
+        for (int i = 1; i < multiple.length; i++) {
+            for (int j = 1; j <= multiple[i].length; j++) {
+                System.out.print((i) + "*" + (j) + "=");
+                System.out.println((i) * (j));
             }
-            System.out.println();
+            System.out.println("............................\n");
         }
     }
-}
 
+}

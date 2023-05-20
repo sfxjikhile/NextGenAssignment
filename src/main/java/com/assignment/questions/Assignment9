@@ -1,0 +1,18 @@
+ASSIGNMENT (9)
+
+Consider the scenario of the EmployeeDetails application. In this application,
+David needs to implement user-defined exceptions for the following cases:
+If the menu input entered by the user is less than 1 or greater than 3,
+an appropriate message should be displayed to the user and the application must restart.
+The employee id entered does not start with the alphabet “e”.
+
+
+Sammy is a programmer at NewAxis Technologies. He needs to write a program,which will accept the employee details from a user.
+A user should be able to enter the name, contact details, and age. The minimum and maximum ages are 20 and 55, respectively.
+If the age of an employee is less than 20 or greater than 55, a user-defined exception should be thrown. Help Sammy to perform this task.
+
+
+Create a program to divide two numbers. The program should provide the functionality, such that if a user tries to perform the division operation by 0,
+the program should terminate with a customized message.
+
+

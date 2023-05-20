@@ -1,0 +1,13 @@
+ASSIGNMENT (10)
+
+You need to write a program which provides an option to either input the book details or display the book details.
+In addition,on selecting the input option, the book details, such as the book name, author name, and price,
+should be accepted and written into a text file. Further, if the display option is selected, all the book details should be displayed.
+
+
+You need to develop an application that accepts the name of a file and the word to be searched in that file.
+Based on the input that the user has provided, the application should display the number of occurrences of that word in the file.
+
+
+Write a program that accepts an absolute file path, such as D:\Textfile.txt, and the content to write into the file from the user.
+The program should continue accepting the content from the user until the user inputs the text, end.
