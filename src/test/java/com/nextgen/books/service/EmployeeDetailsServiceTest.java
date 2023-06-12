@@ -4,15 +4,16 @@ import com.nextgen.books.dto.EmployeeDetailsDto;
 import com.nextgen.books.dto.EmployeeDetailsResponse;
 import com.nextgen.books.entity.Book;
 import com.nextgen.books.repository.BookRepository;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
-import org.mockito.junit.MockitoJUnitRunner;
+import org.mockito.junit.jupiter.MockitoExtension;
 
-@RunWith(MockitoJUnitRunner.class)
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+@ExtendWith(MockitoExtension.class)
 public class EmployeeDetailsServiceTest {
 
     private EmployeeDetailsService employeeDetailsService;
@@ -20,7 +21,7 @@ public class EmployeeDetailsServiceTest {
     @Mock
     private BookRepository bookRepository;
 
-    @Before
+    @BeforeEach
     public void setUp() {
         employeeDetailsService = new EmployeeDetailsService(bookRepository);
     }
@@ -31,8 +32,8 @@ public class EmployeeDetailsServiceTest {
         EmployeeDetailsDto employeeDetailsDto = new EmployeeDetailsDto();
         employeeDetailsDto.setMaritalStatus(true);
         EmployeeDetailsResponse response = employeeDetailsService.createEmployeeDetails(employeeDetailsDto);
-        Assert.assertEquals(-1, response.getCode());
-        Assert.assertEquals("Date of marriage cannot be blank", response.getDescription());
+        assertEquals(-1, response.getCode());
+        assertEquals("Date of marriage cannot be blank", response.getDescription());
     }
 
     @Test
@@ -42,8 +43,8 @@ public class EmployeeDetailsServiceTest {
         employeeDetailsDto.setMaritalStatus(true);
         employeeDetailsDto.setDateOfMarriage("15/03/2000");
         EmployeeDetailsResponse response = employeeDetailsService.createEmployeeDetails(employeeDetailsDto);
-        Assert.assertEquals(-1, response.getCode());
-        Assert.assertEquals("This employee is not one of us", response.getDescription());
+        assertEquals(-1, response.getCode());
+        assertEquals("This employee is not one of us", response.getDescription());
     }
 
     @Test
@@ -53,9 +54,10 @@ public class EmployeeDetailsServiceTest {
         employeeDetailsDto.setMaritalStatus(true);
         employeeDetailsDto.setDateOfMarriage("15/03/2000");
         EmployeeDetailsResponse response = employeeDetailsService.createEmployeeDetails(employeeDetailsDto);
-        Assert.assertEquals(-1, response.getCode());
-        Assert.assertEquals("This book for this employee does not exist", response.getDescription());
+        assertEquals(-1, response.getCode());
+        assertEquals("This book for this employee does not exist", response.getDescription());
     }
+
     @Test
     public void testCreateEmployeeDetails_ShouldReturnSuccess() {
         EmployeeDetailsDto employeeDetailsDto = new EmployeeDetailsDto();
@@ -69,8 +71,8 @@ public class EmployeeDetailsServiceTest {
 
         Mockito.when(bookRepository.findBookById(Mockito.anyInt())).thenReturn(book);
         EmployeeDetailsResponse response = employeeDetailsService.createEmployeeDetails(employeeDetailsDto);
-        Assert.assertEquals(0, response.getCode());
-        Assert.assertEquals("Successfully created employee", response.getDescription());
+        assertEquals(0, response.getCode());
+        assertEquals("Successfully created employee", response.getDescription());
     }
 
 }
