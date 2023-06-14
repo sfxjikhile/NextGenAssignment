@@ -11,6 +11,8 @@ public interface BookRepository extends JpaRepository<Book, Integer> {
 
     Book findBookById(int id);
 
+    Book findBookByName(String name);
+
     @Modifying
     @Query(value = "delete from Book b where b.book_name = :name", nativeQuery = true)
     void deleteBookByName (String name);

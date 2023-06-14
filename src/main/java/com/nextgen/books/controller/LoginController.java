@@ -28,11 +28,13 @@ public class LoginController {
         return "Welcome to Daily Code Buffer!!";
     }
 
+    //To get token/access
     @PostMapping("login")
     public ResponseEntity<LoginResponseDto> login(@RequestBody LoginDto loginDto) {
         return new ResponseEntity<>(loginService.login(loginDto), HttpStatus.OK);
     }
 
+    //To register or add a user to the db
     @PostMapping("register")
     public ResponseEntity<RegisterResponseDto> register(@RequestBody RegisterDto registerDto) {
         return new ResponseEntity<>(loginService.register(registerDto), HttpStatus.OK);
