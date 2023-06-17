@@ -16,7 +16,7 @@ public class UserService {
     public UserRegistrationResponse registerUser(UserRegistrationRequest userRegistrationRequest) {
         String email = userRegistrationRequest.getEmail();
         log.debug("The request from client is {}", userRegistrationRequest);
-        UserRegistrationResponse userRegistrationResponse = new UserRegistrationResponse(1, "You cannot sign up with email; sign up with username instead");
+        UserRegistrationResponse userRegistrationResponse = new UserRegistrationResponse(1, "You cannot sign up with email; sign up with email instead");
         if (appProperties.isEnableEmailSignUp()) {
             userRegistrationResponse.setCodeAndDescription(1, "You can sign up with email");
             return userRegistrationResponse;

@@ -3,7 +3,8 @@ package com.nextgen.books.enums;
 public enum ResponseCodeEnum {
     SUCCESS(0, "Success"),
     ERROR(-1, "Error"),
-    INVALID_INPUT(-2, "Invalid input was entered");
+    INVALID_INPUT(-2, "Invalid input was entered"),
+    BOOK_NOT_FOUND(-3, "The Book specified by this Id does not exist");
 
     int code;
     String description;

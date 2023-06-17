@@ -12,27 +12,27 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/auth")
-public class AuthenticationController {
+@RequestMapping("/user")
+public class UserController {
 
     private final UserService userService;
 
-    public AuthenticationController(UserService userService) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 
     @PostMapping("register")
     public UserRegistrationResponse registerUser(@Valid @RequestBody UserRegistrationRequest userRegistrationRequest) {
-    return userService.registerUser(userRegistrationRequest);
+        return userService.registerUser(userRegistrationRequest);
     }
 
     @GetMapping("hello")
-    public String hello(){
+    public String hello() {
         return "Hello World!";
     }
 
     @GetMapping("bye")
-    public String bye(){
+    public String bye() {
         return "Byeeee!";
     }
 
